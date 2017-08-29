@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand|Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Cabin');
+
+body,html{
+	margin:0;
+}
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+/**Embeded Font Goes Here**/
+@font-face {
+    font-family: TrashHand;
+    src: url(../fonts/TrashHand.TTF);
+}
+
+/**Headline Section**/
+
+#headline{
+	padding: 10%;
+	background:url('../images/bg-home.png')no-repeat;
+	background-size: cover;
+	height: 710px;
+}
+
+#headline h1, h2{
+	font-family: 'TrashHand';
+	text-align: center;
+}
+
+#headline h1{
+	font-size:10em;
+	color:#155072;
+}
+#headline h2{
+	font-size: 3em;
+	letter-spacing: 10px;
+	color:#155072;
+}
+
+/**Countdown**/
+#countdown{
+
+}
+#countdown h1{
+	font-family: 'TrashHand';
+	font-size: 4em;
+}
+#countdown h1 .bigger{
+	font-size: 5em;
+}
+
+/**About Section*/
+#about {
+	padding: 8%;
+	background:url('../images/bg-about.png')no-repeat right;
+	background-size:cover;
+}
+
+#about h1{
+	margin-bottom: 5%;
+	font-family: 'TrashHand';
+	font-size: 6em;
+	color: #675c4e;
+}
+
+#about p{
+	text-align: justify;
+	font-family: 'Quicksand';
+	font-size: 1.2em;
+}
+
+.about-title{
+	text-align: center;
+	margin-bottom: 4%;
+}
+
+.btn-round{
+	border: 2px #00adee solid;
+	border-radius: 10px;
+	padding: 10px;
+	text-decoration: none;
+	color:#00adee;
+	font-family: 'Quicksand';
+	font-size: 20px;
+	font-weight: bold;
+}
+.btn-round:hover{
+	background:#00adee;
+	text-decoration: none;
+	color:#fff;
+}
+
+/**Event Section **/
+#event{
+	color: #fff;
+	background: #1b75bb;
+	height: 100%;
+}
+
+#event h1{
+	font-family: 'TrashHand';
+	color: #fff;
+	font-size: 6em;
+}
+#event h2{
+	font-family: 'Quicksand';
+	font-size: 3em;
+	text-align: left;
+}
+#event p{
+	font-family: 'Quicksand';
+	font-size: 1.4em;
+	text-align: justify;
+}
+
+/**KS Gallery*/
+#ks-gallery{
+	background: #f2e672;
+}
+#ks-gallery h1{
+	font-family: 'TrashHand';
+	color:#554a3b;
+	margin-bottom: 5%;
+	font-size: 5em;
+	text-align: right;
+}
+
+.border-image{
+	border: white 6px solid;
+	border-radius: 10px;
+	box-shadow: 6px 6px 5px rgba(0,0,0,0.3);;
+}
+
+/**Tiket **/
+#tiket{
+	background: url('../images/last-bk.jpg') no-repeat center fixed;
+	background-size: cover;
+	color:#fff;
+	padding: 5%;
+}
+
+#tiket h1{
+	text-align: center;
+	font-family: 'Quicksand';
+	margin-bottom: 5%;
+	font-weight: bold;
+	font-size: 4em;
+}
+#tiket a{
+	margin: 2%;
+}
+
+/**Footer**/
+footer{
+	color: #fff;
+}
+footer .wrapper{
+	padding: 2%;
+	background: #f2e773;
+	color: #69472b;
+}
+footer h3{
+	font-family: 'Quicksand';
+	text-align: left;
+	font-weight: bold;
+}
+footer .footer-text{
+	background: #69472b;
+	padding: 1%;
+}
